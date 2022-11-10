@@ -66,4 +66,8 @@ for batch_data in dataloader:  # 卷积
     save_image(img1, 'b.jpg')
     img2 = F.conv2d(imags_data, weight2)  # 作用在图片上
     img2 = make_grid(img2, 4)
+<<<<<<< HEAD
     save_image(img2, 'c.jpg')
+=======
+    save_image(img2, 'c.jpg')
+>>>>>>> 421255f3b4bfdb15774b2ceb8bb9915a2785340e
